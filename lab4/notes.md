@@ -38,7 +38,7 @@ After refreshing the GitHub repository page, the README is displayed on the fron
 #q13
 No, pushing did not change my local Git history. git push only sent my existing local commits to the GitHub repository, so the output of git log --oneline remained the same.
 
-#14
+#q14
 A private repository exists on GitHub, but its contents can only be accessed by the owner and people who have been given permission, such as my TAs. A repository that does not exist on GitHub at all has not been created or pushed there, so there is no GitHub repository for anyone to access.
 
 
