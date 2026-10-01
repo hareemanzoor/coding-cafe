@@ -1,0 +1,16 @@
+1. /home/hareemanzoor
+2. ls -a shows hidden files and directories while ls shows visible files and folders.
+3. the first column -rw-r--r-- 1 represents the access permissions and file type.
+4. the terminal is currently inside my home directory which contains the folder coding-cafe. the terminal looks for the coding-cafe folder, since it lives right there in my current location, the terminal can find it directly without needing the full path. coding-cafe/week02 is a relative path.
+5. job1:relocating the file. mv took the file README-backup.md from my current location (coding-cafe/) and moved it straight into the week01/ folder. the filename stayed exactly the same (README-backup.md), it just lived in a new folder now.   job2:renaming the file. once i navigated inside week01/, i ran mv with a new filename instead of a folder path. since old-readme.md wasn't a directory, mv kept the file inside week01/ and simply changed its name from README-backup.md to old-readme.md.
+6. 18
+7. /usr/bin/python3
+8. no, they are not the same because the two computers use different installation methods and have different file paths for python. one system relies on the operating system's default built-in python, while the other uses a third-party installation (like anaconda), causing the terminal to point to a completely different directory.
+9. Command 'pyton3' not found, did you mean: command 'python3' from deb python3 (3.12.3-0ubuntu2) Try: sudo apt install <deb name>. when i entered pyton3, the shell searched through every folder listed in my PATH for a file or program named pyton3. because of the typo, no program with that exact name exists in any of my PATH directories, so the shell reported that the command was not found and suggested python3 instead.
+10. folders and files starting with a dot (like .venv) are hidden files. plain ls only lists regular, visible files and directories, so it skips hidden items.
+11. (.venv) was added to the very beginning of the terminal prompt line. (.venv) hareemanzoor@DESKTOP-FQAP8GO:~/coding-cafe$
+12. /home/hareemanzoor/coding-cafe/.venv/bin/python3  no, it is not the same path. activating changed my PATH so that the terminal looks inside .venv first when searching for commands. because .venv is placed at the front of the list, typing python3 now opens the Python inside my project folder instead of the main system Python in /usr/bin/python3.
+13. the second list contains requests and its helper packages (certifi, charset-normalizer, idna, and urllib3) which were not in the first list.
+14. it points back to /usr/bin/python3.
+15. ls -h stands for human-readable. it shows file sizes in easy-to-read units like kilobytes (K), megabytes (M), or gigabytes (G) instead of plain byte numbers.
+16. Ctrl + C: cancels the currently running action or line of code. inside python, it throws a KeyboardInterrupt and gives you a fresh line, but keeps python running. Ctrl + D: signals that there is no more input coming. inside Python, it completely closes the python shell and returns to normal terminal prompt.

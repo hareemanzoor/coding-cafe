@@ -1,0 +1,80 @@
+    1  lsb_release -a
+    2  python3 --version
+    3  pwd
+    4  ls
+    5  ls -a
+    6  ls -l
+    7  pwd
+    8  mkdir coding-cafe
+    9  ls
+   10  cd coding-cafe
+   11  pwd
+   12  mkdir coding-cafe/week01
+   13  cd coding-cafe/
+   14  ls
+   15  mkdir week02
+   16  ls
+   17  cd week02
+   18  cd ../week01
+   19  cd ../week02
+   20  touch notes.md
+   21  ls
+   22  code notes.md
+   23  code ..coding-cafe/
+   24  ls
+   25  ls -l
+   26  pwd
+   27  cd ../coding-cafe
+   28  cd
+   29  pwd
+   30  mkdir coding-cafe/
+   31  mkdir coding-cafe
+   32  cd coding-cafe
+   33  pwd
+   34  cp README.md README-backup.md
+   35  touch README.md
+   36  ls
+   37  cp README.md README-backup.md
+   38  mv README-backup.md week01/
+   39  cd week01
+   40  mv README-backup.md old-readme.md
+   41  ls
+   42  rm old-readme.md
+   43  echo $PATH
+   44  which python3
+   45  which pip
+   46  which ls
+   47  pyton3
+   48  cd ~/coding-cafe
+   49  python3 -m venv .venv
+   50  sudo apt update && sudo apt install -y python3.12-venv
+   51  python3 --version
+   52  python3 -m venv .venv
+   53  source .venv/bin/activate
+   54  cd ~/coding-cafe
+   55  deactivate
+   56  cd ~/coding-cafe
+   57  python3 -m venv .venv
+   58  ls
+   59  ls -a
+   60  source .venv/bin/activate
+   61  .venv\Scripts\activate.bat
+   62  .venv\Scripts\Activate.ps1
+   63  rm -rf .venv
+   64  python3 -m venv .venv
+   65  source .venv/bin/activate
+   66  which python3
+   67  pip list
+   68  pip install requests
+   69  pip list
+   70  deactivate
+   71  which python3
+   72  man ls
+   73  man man
+   74  cd~
+   75  cd ~
+   76  history
+   77  python3
+   78  history > week02/lab01-log.txt
+   79  mkdir -p week02
+   80  history > week02/lab01-log.txt
